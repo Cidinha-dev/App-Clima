@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <title>Previsão do Tempo</title>
+</head>
+<body>
+
+
+    <div class="container">
+        <h1 class="titulo">Confira o Clima de qualquer lugar</h1>
+        <input class="input-cidade" type="text" placeholder="Digite uma cidade">
+        <button class="botao-busca" onclick="buttonBusca()">
+            <img class="img-busca" src="img/Pesquisar.png" alt="">
+        </button>
+        <div class="info-container">
+            <h2 class="cidade">Tempo em São Paulo</h2>
+            <p class="temp">21&deg;C</p>
+            <div class="img-container">
+                <img class="img-previsao" src="img/nuvem.png" alt=""> <p class="texto-previsao">Nublado</p>
+            </div>
+            <p class="umidade">Umidade: 76%</p>
+        </div>
+    </div>
+    
+</body>
+</html>

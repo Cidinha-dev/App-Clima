@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    box-sizing: border-box;
+    font-family: 'Pangolin', cursive;;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    background-size: cover;
+}
+.container{
+    background-color: black;
+    opacity: 0.8;
+    padding:2rem;
+    border-radius: 15px;
+    width: 85%;
+}
+.titulo{
+    margin:1rem;
+}
+.input-cidade{
+    border: none;
+    outline: none;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size:20px;
+    background-color:#454545;
+    width: 80%;
+}
+.img-busca{
+    width: 20px;
+}
+.botao-busca{
+    border: none;
+    outline: none;
+    padding: 0.6rem;
+    border-radius: 50%;
+    background-color: #959595;
+    cursor: pointer;
+}
+
+.info-container{
+    margin-top: 0.5rem;
+}
+.cidade{
+    font-size: 28px;
+    font-weight: 300;
+}
+.temp{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.img-container{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.texto-previsao{
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+.umidade{
+    margin-top: 20px;
+}
