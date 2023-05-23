@@ -5,6 +5,8 @@
 ### utilizando uma APi Opem Weather
 ###  Confira o link do projeto
 ### link => [clima-bom](https://clima-bom.netlify.app)
+----------------
+![Alt ou título da imagem](URL da imagem)
 
 
 
