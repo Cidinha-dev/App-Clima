@@ -19,7 +19,7 @@ body{
     opacity: 0.8;
     padding:2rem;
     border-radius: 15px;
-    width: 85%;
+    width: 50%;
 }
 .titulo{
     margin:1rem;
@@ -67,4 +67,11 @@ body{
 }
 .umidade{
     margin-top: 20px;
+}
+
+
+@media (max-width: 500px){
+    .container{
+        width: 90%;
+    }
 }
